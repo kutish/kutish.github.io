@@ -1,0 +1,6 @@
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+/assets/videos/VID_20230311_181511.mp4 filter=lfs diff=lfs merge=lfs -text
+/assets/videos/VID_20230312_203934.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/VID_20230312_203934.mp4 filter=lfs diff=lfs merge=lfs -text
+assets/videos/VID_20230311_181511.mp4 filter=lfs diff=lfs merge=lfs -text
