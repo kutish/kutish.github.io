@@ -29,7 +29,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 words_per_minute         : 200
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
 
