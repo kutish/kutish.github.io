@@ -85,7 +85,7 @@ published: true
 </figure>
 <figure>
 	<img src="/assets/images/thailand/IMG_20240409_162804.jpg" style="width:100%;height:100%;"/>
-	<figcaption>Первая по восхитительности печатная машинка за сегодня</figcaption>
+	<figcaption>Экспонаты в целом выглядят примерно так</figcaption>
 </figure>
 <figure>
 	<img src="/assets/images/thailand/IMG_20240409_162848.jpg" style="width:100%;height:100%;"/>
