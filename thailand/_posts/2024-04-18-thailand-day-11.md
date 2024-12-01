@@ -58,7 +58,7 @@ published: true
 	<figcaption>Куча старых экранов, напоминает универские времена</figcaption>
 </figure>
 <figure>
-	<img src="/assets/images/thailand/IMG_20240418_141448.jpg" style="width:100%;height:100%;"/>
+	<img src="/assets/images/thailand/IMG_20240418_141612.jpg" style="width:100%;height:100%;"/>
 	<figcaption>Древний Рэмбо с ужасным освещением, простите</figcaption>
 </figure>
 <figure>
