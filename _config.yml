@@ -33,6 +33,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-picture-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -68,3 +69,15 @@ defaults:
       related: true
       classes: wide
       show_date: true
+
+picture:
+  source: assets/images
+  output: assets/generated
+
+  presets:
+    default:
+      formats: [avif, webp, original]
+      widths: [400, 800, 1200, 1600]
+      sizes: "(max-width: 768px) 90vw, 1200px"
+      loading: lazy
+      decoding: async
