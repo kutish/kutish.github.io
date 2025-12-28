@@ -33,7 +33,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-picture-tag
+  - jekyll_picture_tag
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -81,3 +82,7 @@ picture:
       sizes: "(max-width: 768px) 90vw, 1200px"
       loading: lazy
       decoding: async
+
+sass:
+  style: compressed
+  quiet_deps: true

@@ -1,16 +1,18 @@
 source "https://rubygems.org"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-# gem "jekyll", "~> 4.3.2"
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
-gem "webrick", "~> 1.8"
+
+# Remove "github-pages" because it forces old Jekyll 3.9
+# Use standard Jekyll 4 instead:
+gem "jekyll", "~> 4.3.2"
+
 group :jekyll_plugins do
-  gem "jekyll-picture-tag"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem 'jekyll_picture_tag', '~> 2.0'
+  gem "jekyll-include-cache"
+  gem "jekyll-remote-theme"
 end
+
+# Required for Jekyll 4 on Windows
+gem "webrick", "~> 1.8"
+gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw]
